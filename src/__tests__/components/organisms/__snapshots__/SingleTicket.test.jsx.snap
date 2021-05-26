@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should change descrpiton field on change 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-formWrapper-53"
+  >
+    <div
+      class="makeStyles-formHeader-72"
+    >
+      <div
+        class="makeStyles-iconBox-66"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root makeStyles-iconSize-65"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+          />
+        </svg>
+      </div>
+       
+      <h5
+        class="MuiTypography-root makeStyles-title-71 MuiTypography-h5"
+        data-testid="title"
+      >
+        testtetowy
+      </h5>
+       
+      <div
+        data-testid="ticket-desc"
+      >
+        sdsdxxxxxxxxxxxxxxxx
+      </div>
+    </div>
+    <div
+      class="makeStyles-comments-63"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-title-71 MuiTypography-h5"
+        data-testid="list-title"
+      >
+        Comments
+      </h5>
+      <div
+        class="makeStyles-commentList-69"
+        data-testid="comments"
+      >
+        <div
+          class="makeStyles-commentAuthorLeft-70"
+        >
+           Jan Kowalski
+        </div>
+         
+        <div
+          class="makeStyles-commentDescriptionLeft-64"
+        >
+          test contetn
+        </div>
+      </div>
+      <div
+        class="makeStyles-commentList-69"
+        data-testid="comments"
+      >
+        <div
+          class="makeStyles-commentAuthorRight-68"
+        >
+           Piotr Nowak
+        </div>
+         
+        <div
+          class="makeStyles-commentDescriptionRight-67"
+        >
+          test
+        </div>
+      </div>
+    </div>
+    <form
+      class="makeStyles-form-55"
+      data-testid="comments"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root makeStyles-formField-57 MuiFormControl-fullWidth"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+          data-shrink="true"
+        >
+          Description
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+        >
+          <textarea
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+            data-testid="description"
+            name="description"
+            rows="4"
+          >
+            new content
+          </textarea>
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root-73 MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="PrivateNotchedOutline-legendLabelled-75 PrivateNotchedOutline-legendNotched-76"
+            >
+              <span>
+                Description
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <span
+        class="makeStyles-root-77 makeStyles-formField-57 makeStyles-submitBtn-60"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          data-testid="button"
+          tabindex="0"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add Comment
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </span>
+    </form>
+  </div>
+</DocumentFragment>
+`;
